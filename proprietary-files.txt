@@ -158,3 +158,11 @@ usr/idc/max1187x_touchscreen_0.idc
 
 # WiFi firmware
 etc/firmware/wlan/bcmdhd/bcmdhd.cal
+
+# RIL
+lib/libstartup-reason.so
+
+# Camera
+lib/libcacao_chokoball.so
+lib/libcacao_system.so
+lib/libsony_chokoball.so
