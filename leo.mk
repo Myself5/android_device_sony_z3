@@ -36,6 +36,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.sony.device-common.rc:root/init.sony.device-common.rc
     $(LOCAL_PATH)/rootdir/init.sony.device.rc:root/init.sony.device.rc
+	$(LOCAL_PATH)/rootdir/init.sony.device.rc:root/init.sony.usb.rc
     $(LOCAL_PATH)/rootdir/init.target.rc:root/init.target.rc
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
 
