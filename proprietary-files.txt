@@ -102,7 +102,8 @@ etc/sensors_calib.conf
 etc/sysmon.cfg
 lib/libsysmon_jni.so
 lib/sysmon/sysmon_torch_limit.so
-lib/sysmon/sysmon_v_therm2.so
+lib/sysmon/sysmon_v_therm0.so
+lib/sysmon/sysmon_v_therm1.so
 
 # TFA98XX DSP
 etc/sforce/sforce_coef_music.bin
