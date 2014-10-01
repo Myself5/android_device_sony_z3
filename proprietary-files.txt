@@ -35,7 +35,6 @@ vendor/camera/flash.dat
 vendor/camera/jpeg_fsc.dat
 vendor/camera/product.dat
 vendor/camera/product_CACAO.dat
-
 vendor/camera/LGI02BN1
 vendor/camera/LGI02BN1_IMX132.dat
 vendor/camera/SEM02BN1
@@ -100,6 +99,8 @@ etc/sensor_def_qcomdev.conf
 etc/sysmon.cfg
 lib/libsysmon_jni.so
 lib/sysmon/sysmon_torch_limit.so
+lib/sysmon/sysmon_v_therm0.so
+lib/sysmon/sysmon_v_therm1.so
 
 # TFA98XX DSP
 etc/sforce/sforce_coef_music.bin
