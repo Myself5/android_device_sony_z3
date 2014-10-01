@@ -151,6 +151,7 @@ etc/firmware/touch_module_id_0x7e.img
 etc/firmware/touch_module_id_0x96.img
 etc/firmware/touch_module_id_0x7a.img
 etc/firmware/touch_module_id_0x7f.img
+usr/idc/clearpad.idc
 
 # WiFi firmware
 etc/firmware/wlan/bcmdhd/bcmdhd.cal
