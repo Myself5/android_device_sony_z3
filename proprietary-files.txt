@@ -30,21 +30,19 @@ etc/firmware/adsp.mdt
 
 # Camera
 etc/flashled_calc_parameters.cfg
-lib/libcald_hal.so
 lib/libcameralight.so
 vendor/camera/flash.dat
-vendor/camera/LGI02BN1_CACAO.dat
-vendor/camera/LGI02BN1.dat
-vendor/camera/LGI02BN1_IMX132.dat
-vendor/camera/product_CACAO.dat
+vendor/camera/jpeg_fsc.dat
 vendor/camera/product.dat
-vendor/camera/SEM02BN1_CACAO.dat
-vendor/camera/SEM02BN1.dat
+vendor/camera/product_CACAO.dat
+
+vendor/camera/LGI02BN1
+vendor/camera/LGI02BN1_IMX132.dat
+vendor/camera/SEM02BN1
 vendor/camera/SEM02BN1_IMX132.dat
 vendor/camera/SOI20BS0_BU64296GWX.dat
-vendor/camera/SOI20BS0_CACAO.dat
-vendor/camera/SOI20BS0.dat
 vendor/camera/SOI20BS0_IMX200.dat
+
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_isp_modules.so
@@ -81,6 +79,7 @@ etc/firmware/modem.b22
 etc/firmware/modem.b23
 etc/firmware/modem.b24
 etc/firmware/modem.b25
+etc/firmware/modem.b25
 etc/firmware/modem.mdt
 
 # NFC
@@ -96,14 +95,11 @@ bin/suntrold
 bin/sensors.qcom
 vendor/lib/libsensor1.so
 etc/sensor_def_qcomdev.conf
-etc/sensors_calib.conf
 
 # Sysmon
 etc/sysmon.cfg
 lib/libsysmon_jni.so
 lib/sysmon/sysmon_torch_limit.so
-lib/sysmon/sysmon_v_therm0.so
-lib/sysmon/sysmon_v_therm1.so
 
 # TFA98XX DSP
 etc/sforce/sforce_coef_music.bin
@@ -154,15 +150,22 @@ etc/firmware/touch_module_id_0x7e.img
 etc/firmware/touch_module_id_0x96.img
 etc/firmware/touch_module_id_0x7a.img
 etc/firmware/touch_module_id_0x7f.img
-usr/idc/max1187x_touchscreen_0.idc
 
 # WiFi firmware
 etc/firmware/wlan/bcmdhd/bcmdhd.cal
 
+# Blobs below may need to be commonized
 # RIL
 lib/libstartup-reason.so
 
 # Camera
 lib/libcacao_chokoball.so
+lib/libcacao_common.so
+lib/libcacao_pal.so
+lib/libcacao_parammgr.so
 lib/libcacao_system.so
+lib/libcammw.so
+
 lib/libsony_chokoball.so
+lib/libsomc_chokoballpal.so
+lib/libsony_chokoballrsc.so
