@@ -20,7 +20,7 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 
 # Assert
 #TARGET_OTA_ASSERT_DEVICE := D6502,D6503,D6506,D6543,sirius
-TARGET_OTA_ASSERT_DEVICE := D6603,leo
+TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6606,D6643,leo
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/leo/include
 
@@ -29,7 +29,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/leo/bluetooth
 BOARD_HARDWARE_CLASS += device/sony/leo/cmhw
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := shinano_leo_defconfig
+TARGET_KERNEL_CONFIG := aosp_shinano_leo_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26

@@ -41,7 +41,9 @@ PRODUCT_COPY_FILES += \
 
 # USB function switching
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
+    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc \
+    $(LOCAL_PATH)/rootdir/init.usb.rc:root/init.usb.rc \
+    $(LOCAL_PATH)/rootdir/init.usbmode.sh:root/init.usbmode.sh
 
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
