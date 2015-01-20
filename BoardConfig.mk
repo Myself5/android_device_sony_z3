@@ -29,8 +29,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/leo/bluetooth
 BOARD_HARDWARE_CLASS += device/sony/leo/cmhw
 
 # Kernel properties
-#TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
-TARGET_PREBUILT_KERNEL := device/sony/leo/kernel
+TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
