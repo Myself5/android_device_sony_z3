@@ -20,13 +20,13 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 
 # Assert
 #TARGET_OTA_ASSERT_DEVICE := D6502,D6503,D6506,D6543,sirius
-TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6606,D6643,leo
+TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6606,D6643,z3
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/leo/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/z3/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/leo/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/z3/bluetooth
 
-BOARD_HARDWARE_CLASS += device/sony/leo/cmhw
+BOARD_HARDWARE_CLASS += device/sony/z3/cmhw
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_shinano_leo_defconfig
@@ -36,4 +36,4 @@ BOARD_VOLD_MAX_PARTITIONS := 25
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656259072
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := device/sony/leo
+TARGET_RELEASETOOLS_EXTENSIONS := device/sony/z3
